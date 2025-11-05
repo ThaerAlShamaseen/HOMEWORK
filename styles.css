@@ -1,94 +1,74 @@
-/* Basic Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-  background-color: #ffffffdd;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  width: 320px;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
 }
 
 h1 {
-  margin-bottom: 1.5rem;
-  color: #333;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 input {
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  transition: border-color 0.3s;
-}
-
-input:focus {
-  border-color: #6a5acd;
-  outline: none;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
-  flex: 1;
-  margin: 0 0.25rem;
-  padding: 0.6rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-#convertBtn {
-  background-color: #6a5acd;
-  color: white;
+#convert-btn {
+    background-color: #007bff;
+    color: white;
 }
 
-#convertBtn:hover {
-  background-color: #5b4bc4;
-  transform: scale(1.05);
+#convert-btn:hover {
+    background-color: #0056b3;
 }
 
 .clear {
-  background-color: #ff6961;
-  color: white;
+    background-color: #ccc;
 }
 
 .clear:hover {
-  background-color: #e2554a;
-  transform: scale(1.05);
+    background-color: #999;
 }
 
 #result {
-  margin-top: 1.2rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
 }
+
 
