@@ -24,3 +24,4 @@ clearBtn.addEventListener("click", () => {
   result.textContent = "";
   kmInput.focus();
 });
+
